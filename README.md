@@ -37,8 +37,12 @@ The username is saved in local/session storage and associated with a Firebase UI
 
 Once you click **Continue**, the rich text editor opens.
 
+![image](https://github.com/user-attachments/assets/93420d6c-750c-4e76-8841-ad7722f4de88)
+
+
 Above the editor: <br>
-Last edited by: [username]
+Last edited by: [Roshan]
+
 ![image](https://github.com/user-attachments/assets/57147740-d2c2-49c1-8f82-547fe4803944)
 
 
