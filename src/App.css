@@ -1,3 +1,4 @@
+/*reset default margin, padding and give full height to body and html */
 body, html {
   margin: 0;
   padding: 0;
@@ -47,6 +48,7 @@ header  {
   cursor: pointer;
 }
 
+/*hover to make toolbar buttons feel interactive */
 .ql-toolbar button:hover {
   background-color: #e8f0fe;
   border-radius: 5px;
@@ -80,7 +82,7 @@ header  {
   color: #5f6368;  
 }
 
-
+/*entering username before joining the editor */
 .username-modal {
   display: flex;
   flex-direction: column;
@@ -115,6 +117,7 @@ header  {
   color: #9ca3af;
 }
 
+/*button to submit username */
 .username-modal button {
   padding: 10px 20px;
   background-color: red;
