@@ -1,0 +1,133 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #35265d;
+}
+
+
+header  {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+ 
+.real-time-collaborative-editor {
+  height: 500px;
+  max-width: 900px;
+  margin: 20px auto;
+  border: 1px solid #ddd;  
+  background-color: #ffffff;  
+  font-family: 'Roboto', sans-serif; 
+  font-size: 16px;  
+  line-height: 1.5;  
+  padding: 20px;  
+}
+
+ 
+.ql-toolbar {
+  background-color: #f1f3f4;  
+  border: none;
+  border-radius: 5px;
+  margin: 0;
+  padding: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+ 
+.ql-toolbar button {
+  color: #5f6368;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.ql-toolbar button:hover {
+  background-color: #e8f0fe;
+  border-radius: 5px;
+}
+
+.ql-toolbar .ql-formats {
+  margin-right: 20px;
+}
+
+ 
+.ql-toolbar .ql-header {
+  font-size: 16px;
+}
+
+.ql-toolbar .ql-bold,
+.ql-toolbar .ql-italic,
+.ql-toolbar .ql-underline {
+  font-size: 18px;
+}
+
+.ql-editor {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+ 
+.ql-editor .ql-blank::before {
+  content: 'Type here...';
+  color: #5f6368;  
+}
+
+
+.username-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background-color: #35265d;
+  padding: 20px;
+  text-align: center;
+}
+
+.username-modal h2 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.username-modal input {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  outline: none;
+  margin-bottom: 16px;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.username-modal input::placeholder {
+  color: #9ca3af;
+}
+
+.username-modal button {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.username-modal button:hover {
+  background-color: #990000;
+}
+
+ 
