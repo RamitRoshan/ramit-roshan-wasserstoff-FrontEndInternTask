@@ -12,7 +12,7 @@ This project was created as part of a **Frontend Internship Task** submission fo
 
 ## 🧩 Features
 
-- ✨ **Rich Text Editing** using [React Quill](https://github.com/zenoamaro/react-quill)
+- ✨ **Rich Text Editing** using [React Quill].
 - 🔄 **Real-time synchronization** of document contents via Firebase Firestore
 - 🔐 **Anonymous authentication** through Firebase Auth
 - 📝 **Enter your name** before joining the editor (personalized identity per session)
@@ -93,5 +93,5 @@ src/ <br>
  
 
 ---
-🌐 Live Demo
-🔗 [Live Demo](https://your-demo-url.com)
+🌐 Deployment <br>
+🔗 [Live Demo](https://ramit-roshan-wasserstoff-front-end-intern-task.vercel.app/)
